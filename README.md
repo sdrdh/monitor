@@ -10,3 +10,7 @@ type PingChecker interface {
 	GetServiceName() string
 }
 ```
+
+Alert does not take any parameters. Any parameters needed are expected to be sent in a closure implementing this function signature. This will give the ability to choose whatever the caller wants.
+
+Examples can be found in the ```examples``` directory
