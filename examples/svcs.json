@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Mongo",
+        "type": "mongo",
+        "uri": "mongodb://localhost/",
+        "duration": 10
+    },{
+        "name": "Localhost",
+        "type": "service",
+        "uri": "http://localhost:8080/ping",
+        "duration": 10
+    }
+]
