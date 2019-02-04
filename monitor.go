@@ -20,7 +20,7 @@ func checkService(p PingChecker) {
 		if up := p.Ping(); !up {
 			err := p.Alert()
 			if err != nil {
-				log.Println("Error Pinging: ", p.GetServiceName(), err)
+				log.Println("Error Alerting: ", p.GetServiceName(), err)
 				ticker.Stop()
 			}
 		}
